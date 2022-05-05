@@ -27,7 +27,7 @@
     <div class="hader-bottom">
         <ul>
           <?php foreach($menu as $link)
-            echo ('<li class="question">' . '<a href="#">' . $link['label'] .'<a href="#">'. '</li>')
+            echo ('<li class="question">' . '<a href="#">' . $link['label'] .'</a>'. '</li>')
             ?>
         </ul>
       </div>
